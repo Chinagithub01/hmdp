@@ -42,6 +42,8 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+            <!-- 1.18.48 才支持 JDK 25；Spring Boot 2.7.4 自带的版本会在 javac 25 上崩溃 -->
+            <version>1.18.48</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
